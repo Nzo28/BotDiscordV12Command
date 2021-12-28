@@ -1,3 +1,4 @@
+title Air Developpement
 color c
 start https://discord.gg/TcaTA8Fx7P
 echo off
