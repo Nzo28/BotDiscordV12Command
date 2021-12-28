@@ -1,3 +1,5 @@
+git clone https://github.com/Nzo28/BotDiscordV12Command
+
 # Token 
 
 Tu dois mettre ton token dans le fichier .env
