@@ -11,4 +11,15 @@ const client = new Discord.Client();
 
 loadBot(client);
 
+client.on('ready', () => {
+  const statuses = [
+      `Template AirDev`
+  ]
+  let i = 0
+  setInterval(() => {
+      client.user.setActivity(statuses[i], { type: 'STREAMING', url: 'https://www.twitch.tv/nzorp_' })
+      i = ++i % statuses.length
+  }, 1e4)
+});
+
 client.login(process.env.TOKEN);
