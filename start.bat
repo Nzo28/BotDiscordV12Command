@@ -1,4 +1,5 @@
 color c
+start https://discord.gg/TcaTA8Fx7P
 echo off
 cls
 echo Bienvenue sur le Bot Template Free Air Developpement
